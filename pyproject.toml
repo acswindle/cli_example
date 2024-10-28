@@ -5,8 +5,12 @@ description = ""
 authors = ["Chase Swindle <acswindle@gmail.com>"]
 readme = "README.md"
 
+[tool.poetry.scripts]
+cli-example = "cli_example.main:app"
+
 [tool.poetry.dependencies]
 python = "^3.10"
+typer = "^0.12.5"
 
 
 [build-system]
